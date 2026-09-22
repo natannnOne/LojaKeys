@@ -1,6 +1,6 @@
 # Lobo Vendas
 
-Vitrine front-end da loja Lobo Vendas, com catálogo, carrinho persistido no navegador e fluxo visual de checkout.
+Vitrine front-end da minha loja de periféricos e Chaves de ativação steam,  Vendas com catálogo, carrinho persistido no navegador e fluxo visual de checkout.
 
 ## Executar localmente
 
@@ -69,4 +69,4 @@ O checkout desta primeira versão é uma demonstração de interface. Para ativa
 3. Crie a preferência/ordem do Mercado Pago e valide o webhook de pagamento no servidor.
 4. Entregue a key somente após confirmação aprovada e marque-a como vendida de forma atômica.
 
-O endpoint informado para a API de catálogo é `https://levelkeys.online/api/v1`. O endpoint de pagamento é `/api/payments/create` e o webhook é `/api/payments/webhook`.
+O endpoint informado para a API de catálogo é ``. O endpoint de pagamento é  e o webhook é ``.
