@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Logo Lobo Vendas</title>
+  <desc id="desc">Cabeça estilizada de lobo em branco, preto e vermelho</desc>
+  <defs>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff5360"/>
+      <stop offset="1" stop-color="#a80719"/>
+    </linearGradient>
+    <linearGradient id="white" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#b8bcc4"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="244" fill="#08090b" stroke="url(#red)" stroke-width="14"/>
+  <path fill="url(#red)" d="M71 315c47 111 188 165 307 92 47-29 73-75 77-123-36 42-84 68-137 77-80 14-153-5-247-46Z"/>
+  <path fill="#111318" stroke="#e6283b" stroke-width="9" stroke-linejoin="round" d="m98 81 91 43 70-28 65 27 92-42-30 117 27 93-78 102-79 45-87-49-73-98 27-91Z"/>
+  <path fill="url(#white)" d="m107 83 78 41 45-17-54 94 54-22-72 109 56-29-53 75-57-91 25-77Z"/>
+  <path fill="#f4f5f7" d="m405 82-78 41-45-17 54 94-54-22 72 109-56-29 53 75 57-91-25-77Z"/>
+  <path fill="#0b0c10" d="m191 201 65 24 65-24-23 56-42 35-42-35Z"/>
+  <path fill="#fff" d="m235 291 21 12 21-12-9 47-12 18-12-18Z"/>
+  <path fill="#ff3045" d="m145 326 48-28-25 47 58 23-73-7Zm222 0-48-28 25 47-58 23 73-7Z"/>
+  <path fill="#fff" d="m153 374 69 18-42 14Zm206 0-69 18 42 14Z"/>
+</svg>

